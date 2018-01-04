@@ -85,6 +85,10 @@ void loop(void) {
    
    4-bit chords (contiguous binary series):
 
+   Reverse collated -- a0 is on the left (same as the physical circuit layout).
+
+   0 1 2 3  4    ADC
+
    1 0 0 0  0    170
    0 1 0 0  0    410
    1 1 0 0  0    498
